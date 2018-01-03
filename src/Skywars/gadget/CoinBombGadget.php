@@ -1,6 +1,6 @@
 <?php
 
-namespace Skywars\gadget;
+namespace Skywars\gadget\CoinBombGadget;
 
 use pocketmine\event\entity\ProjectileHitEvent;
 use pocketmine\event\inventory\InventoryPickupItemEvent;
