@@ -217,5 +217,4 @@ class Skywars extends PluginBase {
 		}
 		return parent::onCommand($sender, $command, $label, $args);
 	}
-
 }
