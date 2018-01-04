@@ -18,11 +18,13 @@ use pocketmine\Server;
 use Skywars\player\CustomPlayer;
 use Skywars\Skywars;
 use pocketmine\event\Listener;
+use LbCore\LbEventListener;
+use LbCore\LbCore;
 
 /**
  * Handle coin bomb throwing options, create as event listener
  */
-class gadget implements Listener{
+class CoinBombGadget implements Listener {
 	/** @var Skywars */
 	private $plugin;
 
