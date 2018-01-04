@@ -22,7 +22,7 @@ use pocketmine\event\Listener;
 /**
  * Handle coin bomb throwing options, create as event listener
  */
-class Skywars\gadget\CoinBombGadget implements Listener{
+class Skywars/gadget/CoinBombGadget implements Listener{
 	/** @var Skywars */
 	private $plugin;
 
