@@ -200,4 +200,3 @@ class Skywars extends PluginBase {
 		self::$instance = null;
 	}
      }
-}
