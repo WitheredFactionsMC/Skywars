@@ -1,6 +1,6 @@
 <?php
 
-namespace Skywars\gadget\CoinBombGadget;
+namespace CoinBombGadget;
 
 use pocketmine\event\entity\ProjectileHitEvent;
 use pocketmine\event\inventory\InventoryPickupItemEvent;
@@ -22,7 +22,7 @@ use pocketmine\event\Listener;
 /**
  * Handle coin bomb throwing options, create as event listener
  */
-class CoinBombGadget implements Listener {
+class CoinBombGadget implements Listener{
 	/** @var Skywars */
 	private $plugin;
 
