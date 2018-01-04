@@ -215,3 +215,4 @@ class Skywars extends PluginBase {
 			$sender->returnToLobby();
 			return true;
 		}
+	}
