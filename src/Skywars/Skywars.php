@@ -199,20 +199,5 @@ class Skywars extends PluginBase {
 	public function onDisable() {
 		self::$instance = null;
 	}
-
-	/**
-	 * Used for specific plugin commands like /lobby
-	 * (don't forget to write new command in plugin.yml)
-	 * 
-	 * @param CommandSender $sender
-	 * @param Command $command
-	 * @param $label
-	 * @param array $args
-	 * @return boolean
-	 */
-	public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
-		if (strtolower($command->getName()) === "lobby") {
-			$sender->returnToLobby();
-			return true;
-		}
-	}
+     }
+}
