@@ -4,7 +4,8 @@
 namespace Skywars\language;
 
 use pocketmine\utils\TextFormat;
-use LbCore\language\core\Dutch as LbDutch;
+use WitheredFactionsMCPE\LbCore;
+use WitheredFactionsMCPE\LbCore\language\core\Dutch as LbDutch;
 
 /**
  * Contains specific plugin language strings
