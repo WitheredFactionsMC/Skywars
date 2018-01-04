@@ -215,6 +215,3 @@ class Skywars extends PluginBase {
 			$sender->returnToLobby();
 			return true;
 		}
-		return parent::onCommand($sender, $command, $label, $args);
-	}
-}
