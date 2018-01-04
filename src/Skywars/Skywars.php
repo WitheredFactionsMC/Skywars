@@ -21,7 +21,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\math\Vector3;
 use pocketmine\utils\Config;
 use Kits\Kit;
-use LbCore\language\Translate;
+use Skywars\language\Translate;
 use LbCore\LbEventListener;
 /**
  * This is the plugin's main file, in onEnable method calls base game classes and fields,
