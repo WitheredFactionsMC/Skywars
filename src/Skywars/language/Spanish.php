@@ -4,7 +4,7 @@
 namespace Skywars\language;
 
 use pocketmine\utils\TextFormat;
-use LbCore\language\core\Spanish as LbSpanish;
+use WitheredFactionsMCPE\LbCore\language\core\Spanish as LbSpanish;
 
 /**
  * Contains specific plugin language strings
