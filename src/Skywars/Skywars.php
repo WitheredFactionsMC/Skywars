@@ -82,7 +82,7 @@ class Skywars extends PluginBase {
 	public function onEnable() {
 		self::$instance = $this;
 		//create translations
-		Translate::getInstance()->createTranslations('Skywars\language\\');
+		Translate::getInstance()->createTranslations('Skywars\language');
 		//set level freezed time
 		$this->level = $this->getServer()->getLevelByName("world");
 		$this->level->setTime(9000);
