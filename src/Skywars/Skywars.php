@@ -83,9 +83,6 @@ class Skywars extends PluginBase {
 		self::$instance = $this;
 		//set level freezed time
 		$this->level = $this->getServer()->getLevelByName("world");
-		$this->level->setTime(9000);
-		$this->level->stopTime();
-		$this->level->setAutoSave(false);
 		//prepare main config object
 		$config = new Config("worlds/" . $this->level->getFolderName() . "/config.yml", Config::YAML);
 		$this->config = $config;
