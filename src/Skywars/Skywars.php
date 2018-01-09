@@ -83,10 +83,6 @@ class Skywars extends PluginBase {
 		self::$instance = $this;
 		//set level freezed time
 		$this->level = $this->getServer()->getLevelByName("world");
-		//prepare main config object
-		$config = new Config("worlds/" . $this->level->getFolderName() . "/config.yml", Config::YAML);
-		$this->config = $config;
-		//save gametype name
 		$this->serverGameType = $config->get("gametype");
 		$this->serverGameTypeShort = $config->get("gametypeShort");
 		//create manager objects
